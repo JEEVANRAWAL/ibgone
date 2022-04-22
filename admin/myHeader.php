@@ -13,30 +13,31 @@
 
     <link rel="stylesheet" href="http://localhost/php/IBG/css/table.css">
 
-<?php
-session_start();
-$flag = 0;
+    <?php
+    session_start();
+    $flag = 0;
 
-if ($_SESSION) {
-    $flag = 1;
+    if ($_SESSION) {
+        $flag = 1;
 
-    echo "<script>
+        echo "<script>
             var fname = '" . $_SESSION['fname'] . "';
             var user_id = " . $_SESSION['user_id'] . ";
 
             console.log('session created fname =' + fname  + 'and user_id =' + user_id);
         </script>";
-}
+    }
 
-echo "<script>
+    echo "<script>
         var flag = " . $flag . ";
     </script>";
 
-?>
+    ?>
+
     <!-- external jquery file -->
     <script src="http://localhost/php/IBG/myVendor/jquery/jquery.js"></script>
     <!-- external bootstrap file -->
-    <script src="http://localhost/php/IBG/myVendor/bootstrap/bootstrap.js"></script>
+    <script src="../myVendor/bootstrap/bootstrap.js"></script>
 
     <script type="module" src="http://localhost/php/IBG/js/navigation.js"></script>
 </head>
@@ -61,7 +62,7 @@ echo "<script>
                             <a class="nav-link" href="http://localhost/php/IBG/admin/report.php">Report</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://localhost/php/IBG/admin/detail.php">Detail</a>
+                            <a class="nav-link" href="http://localhost/php/IBG/admin/detail.php">Details</a>
                         </li>
 
                         <?php
@@ -69,11 +70,11 @@ echo "<script>
                             echo '<div class="dropdown">
                         <button class="btn btn-color dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <span id="firstName" class="mr-2 d-none d-lg-inline text-gray-600 small">' . $_SESSION["fname"] . '</span>
-                            <img class="img-profile rounded-circle " src="img/undraw_profile.svg">
+                            <img class="img-profile rounded-circle " src="http://localhost/php/IBG/img/undraw_profile.svg">
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                           <li><a class="dropdown-item btn" id="btn-profile"><span class="text-secondary">profile</span></a></li>
-                          <li><a class="dropdown-item btn" id="btn-logout"><span class="text-secondary">logout</span></a></li>
+                          <li><a class="dropdown-item btn" id="btn-admin-logout"><span class="text-secondary">logout</span></a></li>
                         </ul>
                       </div>';
                         } else {

@@ -18,6 +18,7 @@ if (isset($_POST['submit'])) {
         $row = mysqli_fetch_assoc($result);
         $_SESSION['user_id'] = $row['userId'];
         $_SESSION['fname'] = $row['fname'];
+        $_SESSION['role_id'] = $row['roleId'];
 
         header("Location: index.php");
     } else {

@@ -5,8 +5,8 @@ header('Access-Control-Allow-Origin: *');
 include "config.php";
 
 $sql = "SELECT * 
-    FROM users_login u
-    JOIN roles r ON u.roleId = r.roleId";
+    FROM users_login";
+
 $result = mysqli_query($conn, $sql);
 
 if($result){

@@ -16,6 +16,10 @@ $(document).ready(function() {
         modalCall('Are you sure you wanna logout?', 'Logout', "logout.php");
     });
 
+    $('#btn-admin-logout').click(function() {
+        modalCall('Are you sure you wanna logout?', 'Logout', "../logout.php");
+    });
+
     $('#login').click(function() {
         location.href = 'login.php';
     });

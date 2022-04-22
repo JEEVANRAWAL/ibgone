@@ -20,6 +20,10 @@ $flag = 0;
 if ($_SESSION) {
     $flag = 1;
 
+    if($_SESSION['role_id'] == 1){
+        header ('Location: http://localhost/php/IBG/admin/index.php');
+    }
+
     echo "<script>
             var fname = '" . $_SESSION['fname'] . "';
             var user_id = " . $_SESSION['user_id'] . ";
