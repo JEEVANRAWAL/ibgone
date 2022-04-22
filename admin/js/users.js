@@ -8,7 +8,6 @@ $(document).ready(function() {
             console.log(data);
 
             var tableData = "<thead><tr><th scope='col'>SN</th><th scope='col'>First Name</th><th scope='col'>Last Name</th><th>Email of user</th><th>Role</th><th>Action</th></tr></thead><tbody></tbody></tbody>";
-            // tableData += `<tr><td>${data[0]['users_number']}</td><td>${data[1]['bio_number']}</td><td>${data[2]['id_number']}</td></tr>`
 
             for (let i = 0; i < data.length; i++) {
                 tableData += '<tr>';
@@ -23,10 +22,11 @@ $(document).ready(function() {
                     tableData += 'Normal';
                 }
 
-                tableData += `</td><td>
-                <button  value='${data[i]['userId']}' type="button" class="btn btn-danger delete-user">Delete</button>
-                </td>`;
-                tableData += '</tr>';
+                tableData += `</td><td>`;
+                if (data[i]['roleId'] != 1) {
+                    tableData += `<button  value='${data[i]['userId']}' type="button" class="btn btn-danger delete-user">Delete</button>`;
+                }
+                tableData += '</td></tr>';
             }
 
             tableData += '</tbody>';

@@ -36,7 +36,16 @@
             <div class="form-group row mt-2 mb-1">
                 <label for="blood_type" class="col-sm-2 col-form-label">Blood Type</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" name="blood_type" id="blood_type" placeholder="Blood type" required>
+                    <select class="form-control" name="blood_type" id="blood_type" required>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
                 </div>
             </div>
 
