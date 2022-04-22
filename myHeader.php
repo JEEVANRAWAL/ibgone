@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IBG DASHBOARD</title>
 
-    <link rel="stylesheet" href="myVendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="http://localhost/php/IBG/myVendor/bootstrap/bootstrap.css">
 
-    <link rel="stylesheet" href="css/dashboardStyle.css">
+    <link rel="stylesheet" href="http://localhost/php/IBG/css/dashboardStyle.css">
 
-    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="http://localhost/php/IBG/css/table.css">
 
 <?php
 session_start();
@@ -34,11 +34,11 @@ echo "<script>
 
 ?>
     <!-- external jquery file -->
-    <script src="myVendor/jquery/jquery.js"></script>
+    <script src="http://localhost/php/IBG/myVendor/jquery/jquery.js"></script>
     <!-- external bootstrap file -->
-    <script src="myVendor/bootstrap/bootstrap.js"></script>
+    <script src="http://localhost/php/IBG/myVendor/bootstrap/bootstrap.js"></script>
 
-    <script type="module" src="js/navigation.js"></script>
+    <script type="module" src="http://localhost/php/IBG/js/navigation.js"></script>
 </head>
 
 <body>

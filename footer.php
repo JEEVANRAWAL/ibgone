@@ -1,6 +1,5 @@
 <!-- ---------------------------footer section -------------------- -->
 
-<img src="img/wave2.png" alt="footerWave" class="wave-img">
 <section id="footer">
 
     <div class="container">

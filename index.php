@@ -116,6 +116,7 @@
 </section>
 
 
+<img src="img/wave2.png" alt="footerWave" class="wave-img">
 
 <?php include "footer.php"; ?>
 
