@@ -6,7 +6,6 @@ $conn = mysqli_connect("localhost", "root", "", "ibg") or die("failed to connect
 $name = $_POST['name'];
 $father_name = $_POST['father'];
 $dob =  $_POST['dob'];
-$date = substr($dob, 0, strpos($dob, 'T'));
 $religious = $_POST['religious'];
 $nationality = $_POST['nationality'];
 $address = $_POST['address'];
@@ -136,13 +135,13 @@ function test_input($data)
 if (!isEmpty($_POST)) {
     if (!validate_form($_POST)) {
         $sql = "INSERT INTO users (name, father_name, dob, religious, nationality, address, mobile, email, education, language, knowledge, work_exp, hobbies, about_me, usersTable_user_id, img_url) 
-                VALUES ('$name', '$father_name', '$date', '$religious', '$nationality', '$address', '$mobile', '$email', '$education', '$language', '$knowledge', '$work_exp', '$hobbies', '$about_me', $user_id, '$newPath')";
+                VALUES ('$name', '$father_name', '$dob', '$religious', '$nationality', '$address', '$mobile', '$email', '$education', '$language', '$knowledge', '$work_exp', '$hobbies', '$about_me', $user_id, '$newPath')";
 
         echo "your query is: " . $sql;
 
         if (mysqli_query($conn, $sql)) {
             $sql = "SELECT user_id FROM users WHERE name = '$name' AND
-            father_name = '$father_name' AND dob = '$date' AND religious = '$religious' AND address = '$address' AND mobile = '$mobile' AND email = '$email' AND
+            father_name = '$father_name' AND dob = '$dob' AND religious = '$religious' AND address = '$address' AND mobile = '$mobile' AND email = '$email' AND
             education = '$education' AND language = '$language' AND knowledge = '$knowledge' AND work_exp = '$work_exp'AND hobbies = '$hobbies' AND about_me = '$about_me'";
 
             $result = mysqli_query($conn, $sql);

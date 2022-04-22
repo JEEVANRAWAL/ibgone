@@ -4,7 +4,7 @@
     <div class="container overflow-auto shadow-lg p-3 bg-white rounded user-details-table">
 
         <div class="users-table">
-            <h3>Users Details</h3>
+            <h3>Users Detail</h3>
             <table id="users-tbl" class="table"></table>
         </div>
 

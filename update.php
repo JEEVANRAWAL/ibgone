@@ -28,7 +28,7 @@ if($_GET){
             <div class="form-group row">
                 <label for="user-dob" class="col-sm-2 col-form-label">DOB</label>
                 <div class="col-sm-10">
-                    <input type="datetime-local" class="form-control" name="dob" id="user-dob" placeholder="Date of Birth">
+                    <input type="date" class="form-control" name="dob" id="user-dob" placeholder="Date of Birth">
                 </div>
             </div>
             <div class="form-group row">

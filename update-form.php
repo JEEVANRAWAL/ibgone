@@ -5,7 +5,6 @@ $conn = mysqli_connect("localhost", "root", "", "ibg") or die("failed to connect
 $name = $_POST['name'];
 $father_name = $_POST['father'];
 $dob =  $_POST['dob'];
-$date = substr($dob, 0, strpos($dob, 'T'));
 $religious = $_POST['religious'];
 $nationality = $_POST['nationality'];
 $address = $_POST['address'];
@@ -111,7 +110,7 @@ if (!isEmpty($_POST)) {
     if (validate_form($_POST)) {
 
         $sql = "UPDATE users 
-            SET name = '$name' , father_name ='$father_name' , dob = '$date' , religious = '$religious' , 
+            SET name = '$name' , father_name ='$father_name' , dob = '$dob' , religious = '$religious' , 
             nationality = '$nationality' , address = '$address' , mobile = '$mobile' , email ='$email' ,
             education = '$education' , language = '$language' , knowledge = '$knowledge', work_exp = '$work_exp' , 
             hobbies = '$hobbies' , about_me = '$about_me', img_url = '$newPath'

@@ -46,7 +46,7 @@
             <div class="form-group row mt-2 mb-1">
                 <label for="user-dob" class="col-sm-2 col-form-label">DOB</label>
                 <div class="col-sm-10">
-                    <input type="datetime-local" class="form-control" name="dob" id="user-dob" value="<?php
+                    <input type="date" class="form-control" name="dob" id="user-dob" value="<?php
                         if (isset( $_SESSION['value']['dob'])) {
                             echo $_SESSION['value']['dob'];
                         }

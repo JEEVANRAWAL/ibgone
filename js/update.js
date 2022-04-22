@@ -13,6 +13,7 @@ $(document).ready(function() {
                 $('#user-address').val(data[0].address);
                 $('#user-mobile-no').val(data[0].mobile);
                 $('#user-email').val(data[0].email);
+                $('#user-dob').val(data[0].dob);
                 $('#user-education').val(data[0].education);
                 $('#user-language').val(data[0].language);
                 $('#user-knowledge').val(data[0].knowledge);

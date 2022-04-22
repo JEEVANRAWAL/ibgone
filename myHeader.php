@@ -68,9 +68,6 @@ echo "<script>
                             <a class="nav-link" href="http://localhost/php/IBG/#about-us">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://localhost/php/IBG/#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="http://localhost/php/IBG/#social-media">Contact Us</a>
                         </li>
                         <li id='my-details-btn' class="nav-item btn">

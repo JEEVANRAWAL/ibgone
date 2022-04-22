@@ -2,7 +2,7 @@
 
 <style>
     #banner {
-        height: 100vh;
+        height: 94vh;
     }
 </style>
 <!-- ----------------------- banner section ------------------------------ -->
@@ -12,9 +12,8 @@
         <div class="row">
             <div class="col-md-6 ">
                 <p class="web_title">ID BIO GENERATOR</p>
-                <p>ADMIN DASHBOARD <br>
                 <h1>
-                    <?php echo 'Mr. '. $_SESSION['fname'];?>
+                    <?php echo 'Welcome <b>Mr. '. $_SESSION['fname'] . '</b>';?>
                 </h1>
                 </p>
             </div>

@@ -8,8 +8,8 @@ body {
 #container {
     position: relative;
     width: 100%;
-    max-width: 550px;
-    min-height: 350px;
+    max-width: 560px;
+    min-height: 380px;
     margin-top: 100px;
     border-radius: 15px;
     background-color: aliceblue;

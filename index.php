@@ -75,32 +75,6 @@
     </div>
 </section>
 
-<!-- ------------------------------Testimonials --------------------------------------- -->
-
-<section id="testimonials">
-    <div class="container">
-        <h1 class="testimonial-title">What clients says</h1>
-        <div class="row">
-            <div class="col-md-5">
-                <p>Register your account to create awesome id cards and Bio-dat. Just in a Click. Save your valuable time</p>
-
-                <img src="img/user1.jpg" class="user2-img">
-
-                <p class="p1">manager at xyz company</p>
-            </div>
-
-            <div class="col-md-5">
-                <p>Register your account to create awesome id cards and Bio-dat. Just in a Click. Save your valuable time</p>
-
-                <img src="img/jeevan.jpg" class="user2-img">
-
-                <p class="p1">web designer</p>
-            </div>
-        </div>
-    </div>
-
-</section>
-
 <!-- ------------------------------social media ------------------------- -->
 
 <section id="social-media">
