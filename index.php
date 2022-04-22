@@ -30,7 +30,7 @@
                     <img class="card-img-top" src="img/bio1.jpg" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Register your account to create awesome BIO-DATA. Just in a Click. Save your valuable time</p>
+                    <p class="card-text">To create downloadable bio data, clicked the button below</p>
                     <button type="button" id="create-bio-btn" class="btn btn-primary">CREATE BIO DATA</button>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     <img class="card-img-top" src="img/id1.jpg" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Register your account to create awesome BIO-DATA. Just in a Click. Save your valuable time</p>
+                    <p class="card-text">ID card, Just in a Click. Save your valuable time</p>
                     <button type="button" id="create-id-btn" class="btn btn-primary">CREATE ID CARD</button>
                 </div>
             </div>

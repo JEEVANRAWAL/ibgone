@@ -9,7 +9,7 @@
                 <h3 class="logo">Contact us</h3>
                 <p>baneshwor, kathmandu</p>
                 <p>+565464646545</p>
-                <p>xyz@gmail.com</p>
+                <p>ibg@gmail.com</p>
 
             </div>
 
