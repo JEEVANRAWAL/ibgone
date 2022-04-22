@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nev {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a597ba, #5f1782);
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+}
+
+#nev .navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nev img {
+    background-image: linear-gradient(to right, #a597ba, #5f1782);
+}
+
+
+/*section */
+
+section {
+    padding: 2.25rem;
+}
+
+
+/* banner section */
+
+#banner {
+    background-image: linear-gradient(to right, #a597ba, #5f1782);
+    padding-top: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+.web_title {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.play-btn {
+    margin: 20px;
+    width: 40px;
+}
+
+.home-img {
+    width: 500px;
+}
+
+.wave-img {
+    width: 100%;
+    background-image: linear-gradient(to right, #a597ba, #5f1782);
+}
+
+
+/* Tempalte section */
+
+#templates {
+    padding: 80px 0;
+}
+
+.bio-image {
+    height: 300px;
+}
+
+.col-md-4 {
+    margin-left: 200px;
+}
+
+.col-md-3 {
+    margin-left: 120px;
+}
+
+.col-md-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-4 a {
+    padding: 30px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-4 a h1 {
+    padding: 30px 0;
+}
+
+.col-md-3 a h1 {
+    padding: 30px 0;
+}
+
+.container .title {
+    text-align: center;
+    /* margin-top: 30px;
+    margin-left: 50px; */
+}
+
+.title::before {
+    content: '';
+    background: #5f1782;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #5f1782;
+    height: 10px;
+    width: 50px;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(7px);
+}
+
+
+/* ABOUT US SECTION */
+
+#about-us {
+    /* background: #f8f9fa; */
+    background: #dcdcdc;
+    margin-top: 50px;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.about-img {
+    width: 400px;
+    margin-left: 190px;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+
+
+/* Testimonials */
+
+.testimonial-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+
+.testimonial-title::before {
+    content: '';
+    background: #5f1782;
+    height: 5px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+.testimonial-title::after {
+    content: '';
+    background: #5f1782;
+    height: 10px;
+    width: 50px;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(7px);
+}
+
+#testimonials {
+    margin: 100px 0;
+    height: 100vh;
+}
+
+.col-md-5 {
+    border-left: 4px solid #5f1782;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-md-5 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.p1 {
+    font-size: 10px;
+}
+
+
+/* social media  */
+
+#social-media {
+    background: #dcdcdc;
+    padding: 100px 0;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-20px);
+}
+
+.social-icons {
+    text-align: center;
+}
+
+#developers {
+    background: #dcdcdc;
+}
+
+
+/* footer */
+
+#footer {
+    background-image: linear-gradient(to right, #a597ba, #5f1782);
+    color: white;
+}
+
+.footer-ing {
+    width: 100%;
+}
+
+.col-md-7 {
+    padding: 20px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.card-image {
+    height: 340px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.btn-color {
+    background-color: #ACA3A5;
+}
